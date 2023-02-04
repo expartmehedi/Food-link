@@ -84,6 +84,9 @@ body img{
     border-left: 1px solid var(--153261);
     margin-left: 50px;
 }
+.b-r-n ::after{
+    border-right: none;
+}
 .header-menu ul li a {
     font-family: 'Playfair Display';
     font-size: 20px;
@@ -111,7 +114,7 @@ body img{
     right: 10px;
 }
 .banner-sosiyal-icon ul li a {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 15px;
     color: #006998;
 }
@@ -202,6 +205,9 @@ body img{
     line-height: 48px;
     margin-bottom: 100px;
     color: #000;
+}
+.food-info-right-text p strong {
+    font-weight: 800;
 }
 .food-info-right-text a {
     color: var(--153261);
