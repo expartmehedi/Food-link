@@ -84,9 +84,6 @@ body img{
     border-left: 1px solid var(--153261);
     margin-left: 50px;
 }
-.b-r-n ::after{
-    border-right: none;
-}
 .header-menu ul li a {
     font-family: 'Playfair Display';
     font-size: 20px;
