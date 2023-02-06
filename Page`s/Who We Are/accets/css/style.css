@@ -1,0 +1,398 @@
+/* 
+    Templeate Name  : Food-Link
+    Author          : Expart Mehedi
+    Author URL      : https://www.facebook.com/contact.developermehedi
+
+*/
+/************* Tabel Content *********/
+/* 
+    01. Header Section
+*/
+
+/* Utility */
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+:root{
+    --153261: #153261
+}
+.container{
+    max-width: 1250px;
+    margin: auto;
+}
+.list-style-none{
+    list-style: none;
+}
+body a{
+    text-decoration: none;
+    display: inline-block;
+}
+body img{
+    max-width: 100%;
+}
+.d-flex{
+    display: flex;
+}
+.d-grid{
+    display: grid;
+}
+.colum-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+.btn-primary{
+    background-color: var(--6C63FF);
+    width: 204px;
+    height: 68px;
+    border-radius: 4px;
+    border: none;
+}
+.btn-primary a{
+    color: #FFFFFF;
+    font-weight: var(--font_weight-900);
+    font-size: var(--font_size-25);
+    line-height: 29.3px;
+}
+.w-100{
+    width: 100%;
+}
+
+/* Section */
+
+    /* Main CSS Start */
+
+/* Header Section Start */
+#header-section{
+    text-align: center;
+}
+.header-menu ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-menu ul li::before{
+    position: relative;
+}
+.header-menu ul li::after {
+    position: absolute;
+    content: "";
+    height: 30px;
+    border-left: 1px solid var(--153261);
+    margin-left: 50px;
+}
+.header-menu ul li a {
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--153261);
+}
+/* Header Section  End----*/
+/* Banner Section  Stert---*/
+#banner-section{
+    position: relative;
+}
+.home-vertical {
+    position: absolute;
+    left: -20px;
+    top: 290px;
+    transform: rotate(-90deg);
+    color: #153261;
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner-sosiyal-icon {
+    position: absolute;
+    content: "";
+    top: 190px;
+    right: 10px;
+}
+.banner-sosiyal-icon ul li a {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #006998;
+}
+.banner {
+    width: 100%;
+    height: 572px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.banner h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    margin: 120px;
+    padding-top: 130px;
+    font-weight: 400;
+    line-height: 90px;
+    font-family: 'Playfair Display';
+    margin-bottom: 10px;
+}
+.bannder-button{
+    text-align: center;
+}
+.banner-button {
+    background: transparent;
+    padding: 20px 60px;
+    border: 1px solid #fff;
+}
+.banner-button a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* Banner Section  End---*/
+/* Transform Section  Start---*/
+.transform{}
+.transform h1 {
+    font-size: 48px;
+    color: var(--153261);
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Playfair Display';
+    padding: 60px 100px;
+    margin: 0 120px;
+    line-height: 75px;
+}
+/* Transform Section  End---*/
+/* food-info Section  Start---*/
+#food-info-section {
+    padding: 100px 0 80px 0;
+}
+.food-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.food-info-left-img{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.food-info-left-img1 {
+    position: absolute;
+    content: "";
+    top: 150px;
+    left: 190px;
+}
+.food-info-left-img2 {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 90px;
+}
+.food-info-right-text{}
+.food-info-right-text h1 {
+    font-size: 40px;
+    font-family: 'Playfair Display';
+    line-height: 53px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    color: var(--153261);
+}
+.food-info-right-text p {
+    font-size: 23px;
+    font-family: 'Playfair Display';
+    line-height: 48px;
+    margin-bottom: 100px;
+    color: #000;
+}
+.food-info-right-text p strong {
+    font-weight: 800;
+}
+.food-info-right-text a {
+    color: var(--153261);
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+/* ood-info Section  End---*/
+/* awards Section  Start---*/
+#awards-section {
+    background: linear-gradient(90deg, #006998 0%, #153261 100%);
+    padding: 25px 0 40px 0;
+}
+.awards{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.award span {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 38px;
+    line-height: 55px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    margin-top: 30px;
+}
+.awards h1, p {
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* awards Section  End---*/
+/* Domains-section  Start---*/
+
+#Domains-section {
+    padding: 80px 0;
+}
+.Domains {
+    text-align: center;
+}
+.Domains h1{
+    font-family: 'Playfair Display';
+    font-size: 50px;
+    color: var(--153261);
+    font-weight: 400;
+    line-height: 70px;
+
+}
+/* Domains-section  End---*/
+/* Service-section  Start---*/
+#services-section{}
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+.services h2{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 240px;
+    color: #fff;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 400;
+}
+.corporate{
+    background-image: url(../img/Corporate\ .png);
+    height: 240px;
+    width: 240px;
+}
+.manufacturing{
+    background-image: url(../img/Manufacturing.png);
+    height: 240px;
+    width: 490px;
+}
+.healthcare{
+    background-image: url(../img/Healthcare.png);
+    height: 240px;
+    width: 240px;
+}
+.education{
+    background-image: url(../img/Education.png);
+    height: 235px;
+    width: 240px;
+}
+/* Service-section  End---*/
+/* good-company-section  Start---*/
+#good-company-section{
+    padding: 80px 0;
+}
+.good-company {
+    text-align: center;
+}
+.good-company h1 {
+    font-family: 'Playfair Display';
+    color: var(--153261);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 70px;
+}
+/* good-company-section  End---*/
+/* glogos-section  Start---*/
+#logos-section {
+    border-bottom: 2px solid var(--153261);
+    padding-bottom: 50px;
+}
+.logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+/* glogos-section  End---*/
+/* footer-top-logo-section  Start---*/
+#footer-top-logo {
+    margin-left: 250px;
+}
+.footer-logo{
+}
+/* footer-top-logo-section  End---*/
+/* footer-section  Start---*/
+#footer-section{}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer-left-content{}
+.footer-left-content h2 {
+    margin-left: 220px;
+}
+.footer-left-content h2 a {
+    color: var(--153261);
+    font-size: 25px;
+    font-family: 'Playfair Display';
+    line-height: 50px;
+    font-weight: 400;
+}
+.footer-right-content {
+    margin-left: 70px;
+}
+.footer-right-content h2 {
+    color: var(--153261);
+    font-size: 25px;
+    font-family: 'Playfair Display';
+    line-height: 50px;
+    font-weight: 400;
+}
+.footer-input{display: grid; grid-template-columns: 1fr 1fr; gap: 5px;}
+.footer-input input {
+    height: 40px;
+    width: 330px;
+    border: 1px solid #153261;
+    margin-bottom: 35px;
+}
+.footer-input button {
+    height: 40px;
+    width: 120px;
+    background: #153261;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: system-ui;
+    letter-spacing: 3px;
+}
+.footer-right-content p {
+    color: var(--153261);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+/* footer-section  End---*/
+/* footer-buttom-section  Start---*/
+#footer-buttomm-section {
+    padding: 50px 0 50px 250px;
+}
+.footer-button{}
+.footer-button button {
+    height: 50px;
+    width: 190px;
+    margin-left: 20px;
+}
+/* footer-buttom-section  End---*/
+
+
+
+
+
+
+
+
+                             /* Main CSS END */
