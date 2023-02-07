@@ -161,7 +161,7 @@ body img{
 /* Transform Section  End---*/
 /* food-info Section  Start---*/
 #food-info-section {
-    padding: 100px 0 80px 0;
+    padding: 100px 0 50px 0;
 }
 .food-info{
     display: grid;
@@ -169,7 +169,7 @@ body img{
 }
 .food-info-left-img{
     position: relative;
-    top: 0;
+    top: -50;
     left: 0;
 }
 .food-info-left-img1 {
@@ -194,9 +194,9 @@ body img{
     color: var(--153261);
 }
 .food-info-right-text p {
-    font-size: 23px;
+    font-size: 18px;
     font-family: 'Playfair Display';
-    line-height: 48px;
+    line-height: 35px;
     margin-bottom: 100px;
     color: #000;
 }
@@ -214,29 +214,39 @@ body img{
 }
 /* ood-info Section  End---*/
 /* awards Section  Start---*/
-#awards-section {
-    background: linear-gradient(90deg, #006998 0%, #153261 100%);
-    padding: 25px 0 40px 0;
+#about-foodlink-section {
 }
-.awards{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+.about-foodlink{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-.award span {
-    display: inline-block;
-    color: #FFFFFF;
-    font-size: 38px;
-    line-height: 55px;
+.about-foodlink-logo{
+    text-align: center;
+}
+.about-foodlink-text h1 {
     font-family: 'Playfair Display';
+    font-size: 40px;
+    color: var(--153261);
     font-weight: 400;
-    margin-top: 30px;
+    line-height: 70px;
 }
-.awards h1, p {
-    font-family: sans-serif;
-    color: #FFFFFF;
+.about-foodlink-logo{
+    margin-top: 25px;
+}
+.about-foodlink-logo ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.about-foodlink-p-text p {
     font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
+    font-family: 'Playfair Display';
+    line-height: 30px;
+    color: #000;
+    margin-top: -10px;
 }
+
 /* awards Section  End---*/
 /* Domains-section  Start---*/
 
@@ -255,144 +265,41 @@ body img{
 
 }
 /* Domains-section  End---*/
-/* Service-section  Start---*/
-#services-section{}
-.services{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 5px;
-}
-.services h2{
-    display: flex;
-    flex-direction: column-reverse;
-    height: 240px;
-    color: #fff;
-    font-family: 'Playfair Display';
-    font-size: 36px;
-    line-height: 50px;
-    font-weight: 400;
-}
-.corporate{
-    background-image: url(../img/Corporate\ .png);
-    height: 240px;
-    width: 240px;
-}
-.manufacturing{
-    background-image: url(../img/Manufacturing.png);
-    height: 240px;
-    width: 490px;
-}
-.healthcare{
-    background-image: url(../img/Healthcare.png);
-    height: 240px;
-    width: 240px;
-}
-.education{
-    background-image: url(../img/Education.png);
-    height: 235px;
-    width: 240px;
-}
-/* Service-section  End---*/
-/* good-company-section  Start---*/
-#good-company-section{
-    padding: 80px 0;
-}
-.good-company {
-    text-align: center;
-}
-.good-company h1 {
-    font-family: 'Playfair Display';
-    color: var(--153261);
-    font-size: 50px;
-    font-weight: 400;
-    line-height: 70px;
-}
-/* good-company-section  End---*/
-/* glogos-section  Start---*/
-#logos-section {
-    border-bottom: 2px solid var(--153261);
-    padding-bottom: 50px;
-}
-.logos{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-/* glogos-section  End---*/
-/* footer-top-logo-section  Start---*/
-#footer-top-logo {
-    margin-left: 250px;
-}
-.footer-logo{
-}
-/* footer-top-logo-section  End---*/
-/* footer-section  Start---*/
-#footer-section{}
-.footer{
+/* Core-Segments-section  Start---*/
+#Core-Segments-section{}
+.Core-Segments {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.footer-left-content{}
-.footer-left-content h2 {
-    margin-left: 220px;
+.Core-Segments-logo {
+    height: 350px;
+    width: 820px;
+    margin-right: 45px;
 }
-.footer-left-content h2 a {
-    color: var(--153261);
-    font-size: 25px;
+.Core-Segments-logo img{}
+.Core-Segments-text{}
+.Core-Segments-text h1 {
     font-family: 'Playfair Display';
-    line-height: 50px;
+    font-size: 35px;
+    color: #006998;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+.Core-Segments-text p {
+    font-size: 20px;
+    color: #000;
+    font-family: 'barlow';
+    line-height: 39px;
     font-weight: 400;
 }
-.footer-right-content {
-    margin-left: 70px;
-}
-.footer-right-content h2 {
-    color: var(--153261);
-    font-size: 25px;
-    font-family: 'Playfair Display';
-    line-height: 50px;
-    font-weight: 400;
-}
-.footer-input{display: grid; grid-template-columns: 1fr 1fr; gap: 5px;}
-.footer-input input {
-    height: 40px;
-    width: 330px;
-    border: 1px solid #153261;
-    margin-bottom: 35px;
-}
-.footer-input button {
-    height: 40px;
-    width: 120px;
-    background: #153261;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 200;
-    font-family: system-ui;
-    letter-spacing: 3px;
-}
-.footer-right-content p {
-    color: var(--153261);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-}
-/* footer-section  End---*/
-/* footer-buttom-section  Start---*/
-#footer-buttomm-section {
-    padding: 50px 0 50px 250px;
-}
-.footer-button{}
-.footer-button button {
-    height: 50px;
-    width: 190px;
-    margin-left: 20px;
-}
-/* footer-buttom-section  End---*/
-
-
-
-
-
-
-
-
-                             /* Main CSS END */
+/* Core-Segments-section  End---*/
+/* our-vision-mission-section  Start---*/
+#our-vision-mission-section{}
+.our-vision-mission{}
+.our-vision{}
+.our-vision h1{}
+.our-vision p{}
+.our-mission h1{}
+.our-mission p{}
+/* our-vision-mission-section  End---*/
